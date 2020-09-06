@@ -1,0 +1,36 @@
+{
+  "name": "is-aux-xml",
+  "version": "0.0.0",
+  "description": "Identifies Auxiliary XML Files (e.g., .jpg.aux.xml, .png.aux.xml, and .tif.aux.xml)",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write test.js index.js",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/is-aux-xml.git"
+  },
+  "keywords": [
+    "aux",
+    "gdal",
+    "jpg",
+    "geospatial",
+    "maps",
+    "png",
+    "tif",
+    "xml"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/is-aux-xml/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/is-aux-xml#readme",
+  "dependencies": {
+    "get-byte": "0.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.12.1"
+  }
+}
